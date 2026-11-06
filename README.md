@@ -1,5 +1,7 @@
 # Configuration for MS Word Diff scripts with Git
 
+Checkout/copy repo to local folder.
+
 The usage of diff script requires both files referenced in parameters 
 
 `C:/path-to-Scripts/run-word-diff.bat "path1" "path2"`
