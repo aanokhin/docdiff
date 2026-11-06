@@ -1,14 +1,17 @@
 # Configuration for MS Word Diff scripts with Git
 
-We should see something like this in ~/.git attributes
+The usage of diff script requires both files referenced in parameters 
 
+`C:/path-to-Scripts/run-word-diff.bat "path1" "path2"`
+
+### For ussage with Git 
+We should see something like this in ~/.git attributes
 ```
 *.docx diff=msword
 *.doc  diff=msword
 ```
 
 We should see something like this in ~/.gitconfig :
-
 ```
 [diff "msword"]
     guitool = msword
